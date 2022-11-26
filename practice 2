@@ -1,0 +1,25 @@
+using System;
+{
+  namespace Variables;
+  {
+    class Program;
+    {
+      static void Main(string[] args)
+      int number=21;
+      byte number=2;
+      short number=255;
+      float number=2.1f;
+      double number=2.1m;
+      char alphabets='J';
+      bool value=False;
+      console.WriteLine(int);
+      console.WriteLine(byte);
+      console.WriteLine(short);
+      console.WriteLine(float);
+      console.WriteLine(double);
+      console.WriteLine(char);
+      console.WriteLine(bool);
+     }
+    }
+  }
+      
