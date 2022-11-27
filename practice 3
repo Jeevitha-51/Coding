@@ -1,0 +1,25 @@
+using System;
+namespace hello
+{
+    public class World
+    {
+        public string FirstName;
+        public string LastName;
+        
+        public void Welcome()
+        {
+            Console.WriteLine("my name is "+FirstName+" "+LastName);
+        }
+
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var sc = new World();
+            sc.FirstName="jeevitha";
+            sc.LastName="kuppusamy";
+            sc.Welcome();
+        }
+    }
+}
